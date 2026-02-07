@@ -12,7 +12,7 @@
                     <string>software-package</string>
                     <key>url</key>
                     <!-- REPLACE_URL_HERE: This MUST be an HTTPS URL to the IPA file -->
-                    <string>https://YOUR_DOMAIN_HERE/Posta.ipa</string>
+                    <string>https://EVIL-zzzzz.github.io/Posta/Posta.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
