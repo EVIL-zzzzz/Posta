@@ -100,12 +100,39 @@
         <h1>Posta</h1>
         <p>Install .tendies wallpapers and restart your device.</p>
         
+        <div class="alert-box">
+            <h3>⚠️ Cannot Install Directly?</h3>
+            <p>The "Install" button <strong>will not work</strong> unless you have a paid Developer Certificate or a Jailbreak with AppSync.</p>
+            <p><strong>To install without a certificate:</strong></p>
+            <ol style="text-align: left; margin: 10px 0;">
+                <li>Download the <strong>.ipa file</strong> below.</li>
+                <li>Open it in <strong>TrollStore</strong> (Recommended)</li>
+                <li>Or install via PC using <strong>Sideloadly / AltStore</strong>.</li>
+            </ol>
+        </div>
+
         <!-- REPLACE_URL_HERE: The manifest URL must be HTTPS -->
         <a href="itms-services://?action=download-manifest&url=https://EVIL-zzzzz.github.io/Posta/manifest.plist" class="install-btn">
-            Install
+            Install (Cert Required)
         </a>
 
-        <a href="Posta.ipa" class="download-link" download>Download .ipa file</a>
+        <a href="Posta.ipa" class="download-link" download>Download .ipa file (For TrollStore/AltStore)</a>
+        
+        <style>
+            .alert-box {
+                background-color: #fff3cd;
+                border: 1px solid #ffeeba;
+                color: #856404;
+                padding: 15px;
+                border-radius: 12px;
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            .alert-box h3 {
+                margin-top: 0;
+                color: #856404;
+            }
+        </style>
         
         <div class="note">
             <strong>Note:</strong> Requires valid certificate or TrollStore/Jailbreak.
