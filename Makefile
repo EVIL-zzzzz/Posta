@@ -47,9 +47,8 @@ ipa: $(APP_BUNDLE) sign
 	@cd $(OUTPUT_DIR) && zip -r $(IPA_NAME) Payload
 	@rm -rf $(OUTPUT_DIR)/Payload
 	@echo "Done! IPA is at $(OUTPUT_DIR)/$(IPA_NAME)"
-	@mkdir -p docs
-	@cp $(OUTPUT_DIR)/$(IPA_NAME) docs/
-	@echo "Copied IPA to docs/ directory for hosting."
+	@cp $(OUTPUT_DIR)/$(IPA_NAME) .
+	@echo "Copied IPA to project root for hosting."
 
 clean:
 	rm -rf $(OUTPUT_DIR)
